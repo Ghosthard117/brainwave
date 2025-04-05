@@ -1,8 +1,8 @@
 import ButtonSvg from '../assets/svg/ButtonSvg'
 
 type ButtonProps = {
-  className: string,
-  href: string,
+  className?: string,
+  href?: string,
   children: React.ReactNode,
   onClick?: () => void,
   px?: number,
